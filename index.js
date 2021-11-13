@@ -9,4 +9,14 @@ function toggleDark(){
     document.body.style.color = "#fff"
     catty.style.color = "#fff"
 }
-document.addEventListener('click', toggleDark)
+
+dark.addEventListener('click', toggleDark)
+
+function toggleLight(){
+    light.classList.add('d-none')
+    dark.classList.remove('d-none')
+    document.body.style.backgroundColor = "#fff"
+    document.body.style.color = "#000"
+    catty.style.color = "#000"
+}
+light.addEventListener('click', toggleLight)
