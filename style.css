@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    user-select: none;
+}
+
+.toggle{
+    cursor: pointer;
+}
+.main{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.card-title{
+    font-family: 'Sacramento', cursive;
+}
+.card-list{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    list-style: none;
+}
+.card-list li:before { content: '😸'; margin-left: -10px; margin-right: 10px; } 
+
+.catty{
+    max-height: 200px;
+    object-fit: contain;
+}
