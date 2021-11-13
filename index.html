@@ -13,8 +13,8 @@
     <div class="container">
         <div class="header d-flex justify-content-between">
             <h1 class="title mt-2">Catty's Blog</h1>
-            <span class="mt-4 fs-3 dark toggle"><i class="fas fa-moon"></i></span>          
-            <span class="mt-4 fs-3 light d-none toggle"><i class="fas fa-sun"></i></span>          
+            <span class="mt-4 fs-3 dark toggle"><i class="fas fa-moon" id="dark"></i></span>          
+            <span class="mt-4 fs-3 light d-none toggle" id="light"><i class="fas fa-sun" ></i></span>          
         </div>
         <center>
             <div class="main">
@@ -22,7 +22,7 @@
                     <img src="/assets/cat-2.webp" class="catty mt-2 rounded-circle" alt="I am Catty">
                     <div class="card-body">
                         <h1 class="card-title">
-                            Hello there, I am <a href="http://github.com/snowbit-coderboi" target="_blank" class="catty-name text-decoration-none text-dark">Catty</a>
+                            Hello there, I am <a href="http://github.com/snowbit-coderboi" target="_blank" class="catty-name text-decoration-none" id="cattyName">Catty</a>
                         </h1>
                         <p class="info">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -32,5 +32,6 @@
             </div>
         </center>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
