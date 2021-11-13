@@ -15,9 +15,10 @@
 }
 .card-title{
     font-family: 'Sacramento', cursive;
+    font-size: 60px;
 }
 .card-list{
-    font-family: 'Sacramento', cursive;
+    /* font-family: 'Sacramento', cursive; */
     font-size: 30px;
     list-style: none;
 }
@@ -26,4 +27,12 @@
 .catty{
     max-height: 200px;
     object-fit: contain;
+    transform: rotate(20deg);
+    
+}
+.info{
+    text-align: justify;
+    line-height: 2em;
+    max-width: 900px;
+    font-size: 18px;
 }
