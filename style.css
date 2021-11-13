@@ -27,8 +27,24 @@
 .catty{
     max-height: 200px;
     object-fit: contain;
-    transform: rotate(20deg);
-    
+    /* transform: rotate(20deg); */
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+.catty:hover{
+    transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(350deg);
+  -moz-transform: rotate(350deg);
+  -o-transform: rotate(350deg);
+  -ms-transform: rotate(350deg);
+  transform: rotate(360deg);
 }
 .info{
     text-align: justify;
