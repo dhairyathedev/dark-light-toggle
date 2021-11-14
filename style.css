@@ -24,14 +24,10 @@ body{
     -ms-transition: 0.70s;
     -o-transition: 0.70s;
 }
-.toggle i:hover{
-    transition: 0.5s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    font-size: 35px;
+#light:hover{
+    color: yellow;
 }
+
 .catty-name{
     color: #fff;
     transition: 0.3s;
