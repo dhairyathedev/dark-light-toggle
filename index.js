@@ -6,14 +6,11 @@ const btn = document.getElementById('btn')
 function toggleDark(){
     dark.classList.add('d-none')
     light.classList.remove('d-none')
-    // btn.classList.add('btn-light')
-    // btn.classList.add('btn-outline-warning')
-    // btn.classList.remove('btn-outline-dark')
-    // btn.classList.remove('btn-dark')
+    btn.classList.add('btn-warning')
+    btn.classList.remove('btn-dark')
     document.body.style.backgroundColor = "#212224"
     document.body.style.color = "#fff"
     catty.style.color = "#fff"
-    // btn.style.color = "#fff"
 }
 
 dark.addEventListener('click', toggleDark)
@@ -21,12 +18,11 @@ dark.addEventListener('click', toggleDark)
 function toggleLight(){
     light.classList.add('d-none')
     dark.classList.remove('d-none')
-    // btn.classList.remove('color-8')
-    // btn.classList.add('btn-outline-dark')
-    // btn.classList.remove('btn-outline-warning')
-    // btn.classList.add('btn-dark')
+    btn.classList.remove('btn-warning')
+    btn.classList.add('btn-dark')
     document.body.style.backgroundColor = "#fff"
     document.body.style.color = "#000"
     catty.style.color = "#000"
+    btn.style.color = "#fff"
 }
 light.addEventListener('click', toggleLight)
