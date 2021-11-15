@@ -1,14 +1,4 @@
 
-# Dark / Light Toggle - with Catty
-
-A fun and easy example of Dark/Light mode toggle with amazing transition
-
-
-## Screenshots
-
-![App Screenshot](https://raw.githubusercontent.com/snowbit-coderboi/dark-light-toggle/main/assets/banner.png)
-
-
 ## Run Locally
 
 Clone the project
@@ -28,3 +18,5 @@ To open Visual Studio Code
     .code
 ```
 
+
+If you liked this project, then make sure to show some 💓 by staring this repositry
