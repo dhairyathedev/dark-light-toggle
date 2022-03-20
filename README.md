@@ -4,7 +4,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/snowbit-coderboi/dark-light-toggle
+  git clone https://github.com/codewithsnowbit/dark-light-toggle
 ```
 
 Go to the project directory
@@ -15,7 +15,7 @@ Go to the project directory
 
 To open Visual Studio Code
 ```bash
-    .code
+    code .
 ```
 
 
